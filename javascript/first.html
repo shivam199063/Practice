@@ -1,0 +1,34 @@
+<html>
+     <head>
+                <title>
+                        Shivam Saini
+                </title>
+                <script>
+                        function saini(){
+                            var xhr =new XMLHttpRequest();
+                            xhr.open("GET","http://18.61.57.58/cgi-bin/first.py")
+                            xhr.send()
+                            
+                                document.getElementById("id1").innerHTML = xhr.responseText;
+                        }
+
+
+                </script>
+
+
+
+        </head>
+        <body>
+                <h1>Integration of different technologies</h1>
+
+
+                <div id="id1">
+
+
+                        <button onclick=saini() >click me</button>
+
+                </div>
+
+        </body>
+
+        <html>
