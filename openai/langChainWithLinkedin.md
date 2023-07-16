@@ -1,7 +1,5 @@
-# %% [markdown]
 # #Shivam Saini
 
-# %% [markdown]
 #  How we can Integrate Linkedin With LangChain(or we can say chatGpt, LLM Model)
 
 # %%
