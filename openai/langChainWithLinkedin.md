@@ -7,7 +7,7 @@
 
 import requests
 api_endpoint = 'https://nubela.co/proxycurl/api/v2/linkedin'
-api_key = 'kSNUS1xvv4wNuCDA9yqqaQ'
+api_key = 'YourAPIkeyofProxycurl'
 header_dic = {'Authorization': 'Bearer ' + api_key}
 def Linkedin_Scrape(url):
     params = {
@@ -41,7 +41,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chat_models import ChatOpenAI
 
 # %%
-openapiKey = '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'
+openapiKey = 'APIKEYof OPENAI'
 
 # %%
 model = ChatOpenAI(
