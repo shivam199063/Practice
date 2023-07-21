@@ -10,5 +10,5 @@ conn, clientip = s.accept()
 data = conn.recv(1000)
 
 
-print(x)
-print(y)
+# print(x)
+# print(y)

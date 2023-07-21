@@ -1,8 +1,4 @@
-a=filter(lambda x: x%2==0 , [1,2,3,4,5])
-
-# print(tuple(a))
-
-# email=['shivam@gmail.com','saini@gmail.com','amit@gaml']
+print("correct") if(x==5) else print("wrong")
 
 
-# print(list(filter(lambda x:x.split("@")[1]=='gmail.com',email )))
+# print(x,": is greater than",y) if(x>y) else (x,"is less then",y)
