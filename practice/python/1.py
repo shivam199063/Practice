@@ -16,9 +16,18 @@
 
 import sys
 
-a =['10']
-b=a
+# a =10
+a=3
+a=9
+# a=
+c= 10
+# b=a
 # c=a
+print(sys.getrefcount(c))
+for i in range(9):
+    a=c+1
+    print(sys.getrefcount(c))
 
-print(sys.getrefcount(b))
+
+
 
