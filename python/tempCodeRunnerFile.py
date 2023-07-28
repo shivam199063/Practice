@@ -1,4 +1,3 @@
-print("correct") if(x==5) else print("wrong")
+obj=pd.DataFrame(data)
 
-
-# print(x,": is greater than",y) if(x>y) else (x,"is less then",y)
+print(obj.iloc[1:3])
